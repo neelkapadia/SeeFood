@@ -14,7 +14,7 @@ import glob, os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Directory where the data will reside, relative to 'darknet.exe'
-path_data = '/Users/saurabhshanbhag/Desktop/PROJECTS/SeeFood/Data/'
+path_data = '/home/najain/alda/SeeFood/Yolo'
 
 # Percentage of images to be used for the test set
 percentage_test = 10

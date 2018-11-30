@@ -166,7 +166,7 @@ class LabelTool():
         #    self.category = s
         #else:
         print ('22222222222-------------------load dir-------------------22222222222')
-        self.category = '/Users/saurabhshanbhag/Desktop/PROJECTS/SeeFood/Data'
+        self.category = '/home/najain/alda/SeeFood/Yolo/Data'
 ##      if not os.path.isdir(s):
 ##          tkMessageBox.showerror("Error!", message = "The specified dir doesn't exist!")
 ##          return
