@@ -15,9 +15,9 @@ import os
 from PIL import Image
 
 # modify the directories and class file to fit
-datapath = '/Users/saurabhshanbhag/Desktop/PROJECTS/SeeFood/Data'
-labelpath = '/Users/saurabhshanbhag/Desktop/PROJECTS/SeeFood/Yolo/labels'
-classfilename = '/Users/saurabhshanbhag/Desktop/PROJECTS/SeeFood/Yolo/food100.names'
+datapath = '/home/najain/alda/SeeFood/Yolo/Data'
+labelpath = '/home/najain/alda/SeeFood/Yolo/labels'
+classfilename = '/home/najain/alda/SeeFood/Yolo/food100.names'
 
 def convert_yolo_bbox(img_size, box):
     # img_bbox file is [0:img] [1:left X] [2:bottom Y] [3:right X] [4:top Y]
