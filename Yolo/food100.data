@@ -1,0 +1,5 @@
+classes= 100
+train  = /Users/saurabhshanbhag/Desktop/PROJECTS/SeeFood/Yolo/train.txt
+valid  = /Users/saurabhshanbhag/Desktop/PROJECTS/SeeFood/Yolo/test.txt  
+names = /Users/saurabhshanbhag/Desktop/PROJECTS/SeeFood/Yolo/food100.names  
+backup = backup
