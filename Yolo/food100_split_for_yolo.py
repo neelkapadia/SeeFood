@@ -25,9 +25,9 @@ file_test = open('test.txt', 'w')
 
 # Populate train.txt and test.txt
 counter = 1
-print(os.path.join(current_dir, "Data/*/*.jpg"))
+#print(os.path.join(current_dir, "Data/*/*.jpg"))
 index_test = round(100 / percentage_test)
-for pathAndFilename in glob.iglob(os.path.join(current_dir, "Data/*/*.jpg")):
+for pathAndFilename in glob.iglob(os.path.join(current_dir, "images/*/*.jpg")):
     title, ext = os.path.splitext(os.path.basename(pathAndFilename))
     print(pathAndFilename)
     if counter == index_test:

@@ -15,7 +15,7 @@ import os
 from PIL import Image
 
 # modify the directories and class file to fit
-datapath = '/home/najain/alda/SeeFood/Yolo/Data'
+datapath = '/home/najain/alda/SeeFood/Yolo/images'
 labelpath = '/home/najain/alda/SeeFood/Yolo/labels'
 classfilename = '/home/najain/alda/SeeFood/Yolo/food100.names'
 
